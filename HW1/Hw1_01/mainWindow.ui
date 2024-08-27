@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>120</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Load Image</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load Folder</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load Image_L</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load Image_R</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>151</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1.Calibration</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>1.3 Find Extrinsic</string>
+     </property>
+     <widget class="QSpinBox" name="spinBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>42</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>15</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>1.3 Find Extrinsic</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.1 Find Corners</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.2 Find Intrinsic</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.4 Find Distortion</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.5 Show Result</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>181</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Augmented Reality</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.1 Show Words on Board</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>151</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.2 Show Words on Vertically</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>20</y>
+      <width>161</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. Stereo disparity Map</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.1 Stereo Disparity Map</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>704</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
